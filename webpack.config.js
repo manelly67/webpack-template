@@ -38,6 +38,10 @@ module.exports = {
         test: /\.(csv|tsv)$/i,
         use: ['csv-loader'],
       },
+      {
+        test: /\.json$/,
+        use: ['json-loader'],
+      },
     ],
   },
 };
