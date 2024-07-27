@@ -1,1 +1,1 @@
-"# webpack-template" 
+"# webpack-template with jest" 
